@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 13%;
+    line-height: 70px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747, #012733);
+} 
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+ nav ul{
+    float: right;
+}
+ nav li     {
+    list-style: none;
+    display: inline-block;
+}
+  nav li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: white;   
+}
+nav li a:hover {
+     color: orange;
+}
+
+.first{
+    text-align: center;
+    width: 250px;
+    padding-top: 100px;
+    border: 1px solid black;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: rgb(28, 148, 146);
+    color: white;
+    border-radius: 5px;
+}
+.second{   
+    text-align: center;
+    width: 250px;
+    padding-top: 100px;
+    border: 1px solid black;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: rgb(170, 43, 64);
+     color: white;
+     border-radius: 5px;
+}
+.third{
+    text-align: center;
+    width: 250px;
+    padding-top: 100px;
+    border: 1px solid black;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+h4:hover{
+    color: orange;
+    cursor: pointer;
+}
+h4{
+    border: 1px solid black;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    margin-left: 45px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    background-color:black;
+    color:white;
+}
+#first{
+    float: right;
+    margin-top: 150px;
+    margin-right: 150px;
+    
+   
+}
+
+#second{
+    float: right;
+    margin-top: 150px;
+    margin-right:70px ;
+    
+}
+
+#third{
+    float: right;
+    margin-top: 150px;
+    margin-right:70px ;
+    
+}
+body{
+    background-color: rgb(211, 211, 147);
+}
+body{
+    
+}
